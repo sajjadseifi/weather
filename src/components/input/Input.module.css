@@ -1,0 +1,44 @@
+.Input {
+    position: relative;
+    color: #b3ada0;
+    user-select: none;
+}
+
+.Icon{
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%) scale(1);
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+.Icon:hover {
+    background-color: #3a3a39;
+}
+.Icon:active{
+    transform: translateY(-50%) scale(0.95);
+}
+.TextField input {
+    background-color: #272726;
+    color: #b3ada0;
+    border-radius: 2em;
+    width: 460px;
+    outline: 0;
+    box-shadow: 0 none;
+    border: 0 none;
+    padding: 15px 50px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.TextField input:active,.TextField input:hover{
+    padding: 15px 56px;
+    color: #dddddd;
+
+}
