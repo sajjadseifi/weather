@@ -1,9 +1,9 @@
 .Card {
     background-color: white;
     transition: 0.5s;
-    border-radius: 6px;
-    padding: 5px;
+    border-radius: 10px;
     box-sizing: border-box;
+    height: 100%;
 }
 
 .LIGHT {
@@ -15,5 +15,5 @@
 }
 
 .SKY {
-    background-color: skyblue;
+    background-color: #b4eaff;
 }
