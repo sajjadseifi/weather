@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Layout from "../layout/Layout";
-import Next3Days from "../pages/Next3Days";
-import Today from "../pages/Today";
-import Tomorrow from "../pages/Tomorrow";
+import Next3Days from "../pages/Next3Days/Next3Days";
+import Today from "../pages/Today/Today";
+import Tomorrow from "../pages/Tomorrow/Tomorrow";
 
 
 const WheatherRoutes = () => {
