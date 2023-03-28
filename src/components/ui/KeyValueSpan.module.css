@@ -1,0 +1,12 @@
+.KeyValueSpan{
+    font-size: 11px;
+    padding-right: 15px;
+}
+
+.KeyS{
+    color: rgb(102, 102, 102);
+}
+
+.ValueS{
+    color: black;
+}
