@@ -1,0 +1,22 @@
+.Menu {
+}
+
+.Menu ul {
+    display: flex;
+}
+
+.Menu ul li {
+    padding:40px 20px 20px 0;
+}
+.Menu ul li a { 
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.Pending , .Free {
+    opacity: 0.5;
+}
+.Active , .Pending:hover , .Free:hover {
+    opacity: 0.8;
+}
