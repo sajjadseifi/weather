@@ -1,0 +1,19 @@
+.Card {
+    background-color: white;
+    transition: 0.5s;
+    border-radius: 6px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.LIGHT {
+    background-color: #dadada;
+}
+
+.DARK {
+    background-color: #323232;
+}
+
+.SKY {
+    background-color: skyblue;
+}

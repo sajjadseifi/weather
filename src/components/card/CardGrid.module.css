@@ -1,0 +1,12 @@
+.CardGrid{
+
+}
+
+.List{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ListItem{
+    padding: 5px;
+}
