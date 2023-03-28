@@ -1,0 +1,16 @@
+export enum WheatherStatus {
+    Sunny,
+    Cloudy,
+    Windy,
+    Rainy, 
+    Stormy,
+    Snowy,
+    Sleety,
+    Haily,
+    Hot,
+    Coldy,
+    NightSnowFall,
+    LightRainAtNight,
+    Night,
+    DownPoury,
+}
