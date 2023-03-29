@@ -10,7 +10,7 @@ interface CardProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLDiv
 
 const Card : FC<CardProps> = (props) => { 
     const classType = styles[props.cardType]
-    const cardClass = [styles.Card,classType].join(' ')
+    const cardClass = [styles.Card,classType,props.className].join(' ')
     return (
         <div className={cardClass} style={props.style} {...(props as any)}>
             {props.children}
