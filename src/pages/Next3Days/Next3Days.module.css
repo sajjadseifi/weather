@@ -1,0 +1,13 @@
+.Next3Days {
+    display: flex;
+}
+
+.Content {
+    flex: 1;
+}
+
+.Side {
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 300px;
+    height: 100vh;
+}
