@@ -21,8 +21,8 @@ const Menu = () => {
     return (
         <div className={styles.Menu}>
             <ul>
-                <li><MenuLink to="/today" text="ToDay"/></li>
-                <li><MenuLink to="/tomorrow" text="Tomorrow"/></li>
+                <li><MenuLink to="/day/today" text="ToDay"/></li>
+                <li><MenuLink to="/day/tomorrow" text="Tomorrow"/></li>
                 <li><MenuLink to="/next3days" text="Next 3 Days"/></li>
             </ul>
         </div>

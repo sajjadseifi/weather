@@ -1,18 +1,19 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Layout from "../layout/Layout";
+import SignleDay from "../pages/SignleDay/SignleDay";
 import Next3Days from "../pages/Next3Days/Next3Days";
-import Today from "../pages/Today/Today";
-import Tomorrow from "../pages/Tomorrow/Tomorrow";
 
 
 const WheatherRoutes = () => {
     return (
         <Routes>
             <Route path="/" element={<Layout />}>
-                <Route path="today" element={<Today />} />
-                <Route path="tomorrow" element={<Tomorrow />} />
                 <Route path="next3days" element={<Next3Days />} />
+                <Route path="day">
+                    <Route path="today" element={<SignleDay flag="TODAY" />} />
+                    <Route path="tomorrow" element={<SignleDay flag="TOMORROW" />} />
+                </Route>
                 <Route path="*" element={<>Page Not Found</>} />
             </Route>
         </Routes>
