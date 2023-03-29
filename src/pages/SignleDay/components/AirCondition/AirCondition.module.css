@@ -1,0 +1,17 @@
+.AirCondition {
+
+}
+
+.AirCondGrid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.AirCondGrid > li {
+    width: 50%;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
