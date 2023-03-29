@@ -1,0 +1,21 @@
+.Button {
+    border-radius: 6px;
+    opacity: 0.8;   
+    transition: 0.2s;
+    padding: 10px 20px;
+    border: 0 none;
+    box-shadow: 0 none;
+    cursor: pointer;
+    transform: scale(1);
+    outline: 0;
+}
+
+.Button:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.Button:active {
+    opacity: 1;
+    transform: scale(0.95);
+}
