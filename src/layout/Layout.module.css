@@ -1,7 +1,7 @@
 .Layout {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    padding: 30px 50px;
+    padding: 30px 100px;
     background-color: #161616;
     box-sizing: border-box;
 
