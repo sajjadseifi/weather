@@ -1,0 +1,10 @@
+
+.ForcastGrid {
+    display: flex;
+    user-select: none;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.Title {
+    opacity: 0.7;
+}
