@@ -7,7 +7,16 @@
 }
 
 .Side {
-    background-color: rgba(0, 0, 0, 0.301);
     width: 300px;
     height: 100vh;
 }
+
+@media screen and (max-width: 1200px) {
+    .Next3Days {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Side {
+        margin-top: 50px;
+    }
+ }

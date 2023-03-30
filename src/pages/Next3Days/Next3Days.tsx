@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CardGrid from "../../components/card/CardGrid";
 import Chart from "../../components/chart/Chart";
+import Title from "../../components/title/Title";
 import OtherDay from "./components/OtherDay";
 import SelectedDay from "./components/SelectedDay";
 import { next3DayDummyData } from "./dummy-data";
@@ -33,6 +34,7 @@ const Next3Days = ()=> {
                 </CardGrid>
             </div>
             <div className={styles.Side}>
+                <Title>change of rains</Title>
                 <Chart/>
             </div>
         </div>
