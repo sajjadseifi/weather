@@ -10,7 +10,7 @@ interface CardTitleProps {
 }
 
 const CardTitle : FC<CardTitleProps> = (props) => {
-    const isStr = props.title instanceof String
+    const isStr = typeof props.title === 'string'
     return (
         <Card cardType={CardType.DARK} >
             <div className={styles.CardContainer}>
