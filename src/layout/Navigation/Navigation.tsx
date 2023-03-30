@@ -15,7 +15,9 @@ const Navigation : FC<NavigationProps> = (props) =>{
                 <ul className={styles.Container}>
                     <li><Location/></li>
                     <li><Search/></li>
-                    <li><ThemeChanger/></li>
+                    <li>
+                        {/* <ThemeChanger/> */}
+                    </li>
                 </ul>
             </nav>
         </header>
