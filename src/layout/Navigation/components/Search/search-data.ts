@@ -1,0 +1,23 @@
+export const searchData = [
+    {
+        city:'Karaj',
+        country:'Iran',
+    },
+    {
+        city:'kordan',
+        country:'Iran',
+    },
+    {
+        city:'Babol',
+        country:'Iran',
+    },
+    {
+        city:'Gorgan',
+        country:'Iran',
+    }
+    ,
+    {
+        city:'Sari',
+        country:'Iran',
+    }
+]
